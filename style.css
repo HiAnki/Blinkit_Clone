@@ -1,0 +1,164 @@
+.vertical_Line{
+    height: 80px;
+    border: 1px solid lightgray;
+}
+.nav_deliverytime>h5{
+    font-weight: 700;
+    margin-top: 12px;
+}
+.search_bar{
+    border:1px solid rgba(0, 0, 0, 0.04);
+    width: 45%;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    padding: 5px 10px;
+}
+.search_bar>input{
+    width: 95%;
+    border: none;
+    background-color: transparent;
+}
+.catagory{
+    margin: auto;
+    width: 90%;
+}
+.my_cards{
+    width: 90%;
+    margin: auto;
+}
+.my_list>img{
+    display: inline-block;
+}
+.my_cards{
+    white-space: nowrap;
+}
+
+.catagory_section{
+    margin: auto;
+    width: 90%;
+    white-space: nowrap;
+}
+.my_list{
+    overflow-x: scroll;
+}
+
+.my_card{
+    width: 200px;
+    display: inline-block !important;
+    margin-left: 8px;
+}
+.card_timer{
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #f8f8f8;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.weight{
+    font-size: 16px;
+    color: #898989;
+}
+.card_footer>p {
+    font-size: 20px;
+    font-weight: 700;
+}
+.card_heading{
+    white-space: wrap;
+}
+
+footer{
+    margin: auto;
+    width: 90%;
+}
+
+.row3>p{
+    color: #898989;
+}
+.social_media{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+}
+.social_media_icons{
+    display: flex;
+    margin-left: 150px;
+}
+.social_media{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.app_store>img{
+    width: 100px;
+    height: auto;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.row2_text>p{
+    width: 400px;
+    color: #898989;
+    font-size: 13px;
+    font-weight: 500;
+}
+.app_store{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.app_store>img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.app_store>p{
+    margin-top: 5px;
+    font-weight: 700;
+    color: #898989;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+td{
+    color: #898989;
+    margin-top: 8px;
+}
+.table1{
+    flex: 1;
+}
+.table2{
+    flex: 2;
+}
+table{
+    width: 100%;
+}
+.table2>table{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.table2>a{
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+}
+nav {
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+}
+/* .hero_section{
+    margin-top: 20px;
+} */
+
+@media  screen and (max-width: 500px) {
+    .hero_section{
+        display: none !important;
+    }
+}
